@@ -34,6 +34,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", [per valueForKeyPath:@"stu.name"]);
         // NSLog(@"%@", per.stu);         ???????
         NSLog(@"%@", stu1.name);
+        
+        
     
         NSDictionary *dic = @{@"name":@"dilireba", @"gender":@"nv", @"age":@18};
     // 使用 KVC 给 per 赋值
@@ -45,7 +47,7 @@ int main(int argc, const char * argv[]) {
     
     
     
-    
+        NSLog(@"这是在上传么??????????");
     
     
     
