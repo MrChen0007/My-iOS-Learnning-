@@ -35,30 +35,12 @@ int main(int argc, const char * argv[]) {
         // NSLog(@"%@", per.stu);         ???????
         NSLog(@"%@", stu1.name);
         
-        
     
         NSDictionary *dic = @{@"name":@"dilireba", @"gender":@"nv", @"age":@18};
     // 使用 KVC 给 per 赋值
         [per setValuesForKeysWithDictionary:dic];
         NSLog(@"%@, %@, %ld", per.name, per.gender, per.age);
-    
-    
-    
-    
-    
-    
-        NSLog(@"这是在上传么??????????");
-    //dfs'gjdfj/al;dmgihrp;qdmf/asnduvbp;n'erngoq;re'g
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     }
     return 0;
